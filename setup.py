@@ -64,6 +64,7 @@ setup(
     description='Python RandomX hashing module',
     long_description='',
     ext_modules=[CMakeExtension('pyrx')],
+    install_requires=['cmake']
     cmdclass=dict(build_ext=CMakeBuild),
     zip_safe=False,
 )
