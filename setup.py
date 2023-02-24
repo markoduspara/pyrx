@@ -61,7 +61,7 @@ setup(
     version='0.0.5',
     author='Jethro Grassie',
     author_email='jtgrassie@users.noreply.github.com',
-    description='Python RandomX hashing module',
+    description='Python RandomX hashing module (edit Marko Duspara)',
     long_description='',
     ext_modules=[CMakeExtension('pyrx')],
     install_requires=['cmake','setuptools'],
